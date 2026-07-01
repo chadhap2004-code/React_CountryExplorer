@@ -1,20 +1,60 @@
-<<<<<<< HEAD
-# React + Vite
+# Country Explorer 🌍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application to browse and explore information about 250+ countries worldwide using a live REST API.
 
-Currently, two official plugins are available:
+**Live Demo:** http://localhost:5173/  
+**Built as part of:** 30 Days of React — Day 8
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse 250+ countries in a responsive grid
+- Live search — filters countries instantly as you type
+- Loading skeleton cards while data is being fetched
+- Error state with retry button if API fails
+- Click any country to view detailed information
+- Detail view shows capital, population, currency, languages, area, and timezone
+- Back navigation using browser history
+- Fetch cancellation using AbortController on unmount
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# React
->>>>>>> 2bff67022b2ddf1592af636609bf61458ab6e055
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React 18 | UI framework |
+| Vite | Build tool and dev server |
+| CSS | Styling — no external UI library |
+| REST Countries API | Country data source |
+| flagcdn.com | Flag images |
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/country-explorer.git
+
+# Navigate into the project
+cd country-explorer
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+
+
+
+
